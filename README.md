@@ -38,19 +38,21 @@ Installation:
 bash
 Copy
 Edit
-# Clone the repository
+
+### Clone the repository
 git clone https://github.com/your-repo-name.git
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 Running the Pipeline:
 bash
 Copy
 Edit
-# Execute ETL scripts
+
+### Execute ETL scripts
 python etl_pipeline.py
 
-# Run Apache Airflow for workflow automation
+### Run Apache Airflow for workflow automation
 airflow scheduler
 airflow webserver
 
